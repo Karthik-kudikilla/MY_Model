@@ -1,0 +1,39 @@
+body{
+font-family: "Lucida Console", "Courier New", monospace;
+font-size:18px;
+background-image:url('../images/university1.jpg');
+background-size:cover;
+}
+
+td{
+padding:10px;
+color:white;
+
+}
+
+table{
+background-color:hsl(0deg 0% 0% / 96%);
+border-radius:5px;
+padding:20px
+}
+#btn{
+background-color:white;
+cursor:pointer;
+padding:10px;
+border-radius:50%;
+border: 2px solid #4CAF50;
+}
+#btn:hover{
+background-color:blue;
+}
+
+
+p{
+background-color:#ebe2e2;
+padding:15px;
+border-radius:5px;
+color:green;
+}
+form{
+padding:10px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<center>
+<head>
+    <title>Graduate Admission Prediction</title>
+<link rel="stylesheet" href="../static/CSS/style.css">
+
+</head>
+<body>
+<h1>Graduate Admission Prediction</h1>
+<h2>OPAL UNIVERSITY</h2>
+
+
+<form action="./predict" method="POST">
+    <table>
+        <tbody>
+
+
+    <tr>
+        <td>
+            <label for="gre">GRE Score</label>
+        </td>
+        <td>:</td>
+        <td>
+            <input type="number" name="gre" placeholder="Enter GRE" />
+        </td>
+    </tr>
+        <tr>
+        <td>
+            <label for="toefl">TOEFL Score</label>
+        </td>
+        <td>:</td>
+        <td>
+            <input type="number" name="toefl" placeholder="Enter TOEFL"/>
+        </td>
+    </tr>
+        <tr>
+        <td>
+            <label for="ur" >University Rating</label>
+        </td>
+        <td>:</td>
+        <td>
+            <input type="number" name="ur" step="any" placeholder="Enter University Rating"/>
+        </td>
+    </tr>
+        <tr>
+        <td>
+            <label for="sp"> Statement of purpose</label>
+        </td>
+        <td>:</td>
+        <td>
+            <input type="number" name="sp" step="any" placeholder="Enter SOP"/>
+        </td>
+    </tr>
+        <tr>
+        <td>
+            <label for="lr">Letter Of Recommendation</label>
+        </td>
+        <td>:</td>
+        <td>
+            <input type="number" name="lr" step="any" placeholder="Enter LOR" />
+        </td>
+    </tr>
+        <tr>
+        <td>
+            <label for="gpa">CGPA</label>
+        </td>
+        <td>:</td>
+        <td>
+            <input type="number" name="gpa" step="any" placeholder="CGPA"/>
+        </td>
+    </tr>
+<tr>
+        <td>
+            <label for="r">Research Experience</label>
+        </td>
+        <td>:</td>
+        <td>
+            <input type="number" name="r" placeholder="Research Expereince?" />
+        </td>
+    </tr>
+        <tr>
+            <td><input id="btn" type="submit" value="Predict" /></td>
+        </tr>
+        </tbody>
+</table>
+    <p>Chance to Admit:{{pred}}</p>
+
+</form>
+</body>
+</center>
+</html>
